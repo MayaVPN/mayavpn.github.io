@@ -302,11 +302,34 @@ jQuery(function ($) {
     }
   }
 
-  $(".navbar-collapse ul li a").on("click", function(e) {
+  $(".navbar-collapse ul li a").on("click", function (e) {
     $(window).on('scroll', function () {
-    if ($(this).scrollTop() > 0) {
-      $(".navbar-collapse").removeClass("show");
+      if ($(this).scrollTop() > 0) {
+        $(".navbar-collapse").removeClass("show");
+      }
+    });
+  });
+
+
+
+
+
+  $('.year-switch').on('click', function (e) {
+    $('.year-switch').removeClass('active')
+    // console.log(this);
+    $(this).addClass('active')
+    if ($(this).attr('id') === '3-mount') {
+      $('.pricing-header').addClass('m3')
+      $('.plan-cards').removeClass('active')
+    } else if ($(this).attr('id') === '1-mount') {
+
+      $('.pricing-header').removeClass('m3')
+      $('.plan-cards').removeClass('active')
+    } else {
+      $('.plan-cards').addClass('active')
     }
-    }) ;
-  }) ;
+
+  })
 }); // JQuery end
+
+

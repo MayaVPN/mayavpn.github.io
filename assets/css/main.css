@@ -23187,7 +23187,8 @@ footer a {
   background-size: 100% 100%;
   display: block;
   width: 290px;
-  height: 513px;
+  /* height: 513px; */
+  height: 605px;
   position: absolute;
   top: -10px;
   right: calc(50% + 0.5px);
@@ -29299,4 +29300,69 @@ div#clock {
 
 .row{
   margin: 0;
+}
+
+.country-flag{
+  width: 1.3rem;
+  aspect-ratio: 1;
+  margin: 4px;
+  background: var(--bg-flag);
+  background-size: cover;
+  border: 1px solid #eee;
+
+}
+
+
+/* switch price plan */
+div:has(>.year-switch){
+  border: 1px solid #6730e3;
+  width: fit-content;
+  margin: 0 auto;
+}
+.year-switch{
+  min-width: 100px;
+  color: #6730e3;
+  padding: 5px;
+  text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: iransans;
+    cursor: pointer;
+
+    &.active{
+      color: #fff;
+      background-color:  #6730e3;
+      border-radius: 30px;
+    }
+}
+.pricing-header >div:first-child{
+  display: none;
+}
+.pricing-header >div:last-child{
+  display: block;
+}
+.pricing-header.m3 >div:first-child{
+  display: block;
+}
+.pricing-header.m3 >div:last-child{
+  display: none;
+}
+
+.plan-cards{
+  .plan-card{
+    display: block;
+  }
+  .active-pptp{
+    display: none;
+  }
+
+}
+.plan-cards.active{
+  .plan-card{
+    display: none;
+  }
+  .active-pptp{
+    display: block;
+  }
+
 }
