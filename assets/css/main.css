@@ -23186,11 +23186,13 @@ footer a {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: block;
-  width: 290px;
+  /* width: 290px; */
+  width: 268px;
   /* height: 513px; */
-  height: 605px;
+  height: 538px;
   position: absolute;
-  top: -10px;
+  /* top: -10px; */
+  top: 33px;
   right: calc(50% + 0.5px);
   -webkit-transform: translateX(50%);
   transform: translateX(50%);
@@ -23210,10 +23212,10 @@ footer a {
 }
 
 /* line 30, src/assets/scss/components/sereenshots-section/_screenshots-1.scss */
-.screenshot-wrap .screen-carousel .owl-item.active.center img {
+/* .screenshot-wrap .screen-carousel .owl-item.active.center img {
   -webkit-transform: scale(1);
   transform: scale(1);
-}
+} */
 
 @media (min-width: 320px) and (max-width: 1200px) {
   /* line 41, src/assets/scss/components/sereenshots-section/_screenshots-1.scss */
@@ -29347,6 +29349,10 @@ div:has(>.year-switch){
 .pricing-header.m3 >div:last-child{
   display: none;
 }
+.active-pptp .pricing-header.m3 >div:last-child{
+  display: block;
+}
+
 
 .plan-cards{
   .plan-card{
