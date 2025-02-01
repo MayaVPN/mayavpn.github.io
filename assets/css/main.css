@@ -29305,6 +29305,7 @@ div#clock {
 }
 
 .country-flag{
+  border-radius: 50%;
   width: 1.3rem;
   aspect-ratio: 1;
   margin: 4px;
