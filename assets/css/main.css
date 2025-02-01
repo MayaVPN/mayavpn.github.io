@@ -29304,13 +29304,15 @@ div#clock {
   margin: 0;
 }
 
-.country-flag {
-    width: 1.3rem;
-    aspect-ratio: 1;
-    margin: 4px;
-    background: no-repeat center/cover var(--bg-flag);
-    border: 1px solid #eee;
-}
+.country-flag{
+  width: 1.3rem;
+  aspect-ratio: 1;
+  margin: 4px;
+  background: var(--bg-flag);
+  background-size: cover;
+  border: 1px solid #eee;
+
+
 
 
 
