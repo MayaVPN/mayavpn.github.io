@@ -29316,8 +29316,8 @@ div#clock {
 
 .country-flags{
   border-radius: 50%;
-  width: 25px !important;
-  height: 25px !important;
+  width: 30px !important;
+  height: 30px !important;
   background-size: cover !important;
   aspect-ratio: 1;
   margin: 4px;
