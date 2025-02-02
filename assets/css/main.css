@@ -29314,6 +29314,18 @@ div#clock {
   border: 1px solid #eee;
 }
 
+.country-flags{
+  border-radius: 50%;
+  width: 50px !important;
+  height: 50px !important;
+  background-size: cover !important;
+  aspect-ratio: 1;
+  margin: 4px;
+  background: var(--bg-flag);
+  background-size: cover;
+  border: 1px solid #eee;
+}
+
 
 
 
